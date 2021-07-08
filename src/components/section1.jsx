@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import Working from '../images/illustration-working.svg'
 function section1() {
     return (
@@ -16,7 +15,7 @@ function section1() {
 
             </div>
             <div>
-                <img src={Working} width="650px"/>
+                <img src={Working} alt="" width="650px"/>
             </div>
         </section>
     )
