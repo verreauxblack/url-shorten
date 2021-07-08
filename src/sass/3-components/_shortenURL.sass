@@ -1,0 +1,42 @@
+.URL-section
+    $width: calc(#{$mainWidth} - 40% ) 
+    $height: 120px
+    width: $width
+    background: $Dark-Violet
+    height: $height
+    border-radius: 10px
+    overflow: hidden
+    display: flex
+    padding: 50px
+    justify-content: space-between
+    align-items: center 
+    top: 60px
+
+    img
+        width: $width
+        height: $height
+        position: absolute
+        top: 0
+        left: 0
+
+    input[type="url"]
+        width: calc( #{$width} - 38% )
+        height: 45px
+        padding: 20px
+        border-radius: 8px
+        border: none
+
+        &:focus
+            outline: none
+    button
+        width: 140px
+        height: 45px
+        padding: 20px
+        border-radius: 8px
+        border: none
+        background: $Cyan
+        color: white
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 1rem
