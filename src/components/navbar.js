@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/alt-text */
+import Logo from '../images/logo.svg'
 const navbar = () => {
     return (
         <nav className="navBar">
             <div className="logo">
-                <h1>Shortly</h1>
+                <img src={Logo} />
             </div>
             <ul className="outerList">
                 <li className="items">

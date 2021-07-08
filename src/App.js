@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar";
-import Section1 from "./components/section1";
+import Section1 from "./components/section1.jsx";
 
 import './sass/main.sass'
 
