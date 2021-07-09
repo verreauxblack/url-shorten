@@ -10,9 +10,11 @@ import './sass/main.sass'
 const App = () => {
     return (
         <main>
-            <Navbar />
-            <Section1 />
-            <ShortenURL />
+            <section className="container">
+                <Navbar />
+                <Section1 />
+                <ShortenURL />
+            </section>
             <BottomSection />
             <Boost />
             <Footer />

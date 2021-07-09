@@ -2,7 +2,6 @@ footer
     background: $Very-Dark-Blue
     width: 100vw
     height: 300px
-    right: 320px
     padding-top: 60px
     display: flex
     justify-content: space-around
@@ -26,8 +25,14 @@ footer
                 font-size: 14px
                 line-height: 1.8rem
 
+                &:hover
+                    color: $Cyan
+
         ul.social
             width: 140px
             display: flex
             justify-content: space-around
             align-items: center
+
+            img::hover
+                background: $Cyan
