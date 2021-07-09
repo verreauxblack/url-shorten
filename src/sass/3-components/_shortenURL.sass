@@ -1,5 +1,5 @@
 .URL-section
-    $width: calc(#{$mainWidth} - 20% ) 
+    $width: calc(#{$mainWidth} - 20% )
     $height: 120px
     width: $width
     background: $Dark-Violet
@@ -9,7 +9,7 @@
     display: flex
     padding: 50px
     justify-content: space-between
-    align-items: center 
+    align-items: center
     top: 60px
     z-index: 2
 
@@ -41,3 +41,10 @@
         justify-content: center
         align-items: center
         font-size: 1rem
+@media screen and (min-width: 768px) and ( max-width: 1024px )
+    .URL-section
+        width: 610px
+        img
+            width: 610px
+        input[type="url"]
+            width: 350px

@@ -38,12 +38,27 @@
                 top: 30px
             &:nth-child(4)
                 top: 60px
-            
-    
+
     hr
         position: absolute
         height: 8px
         width: calc(#{ $mainWidth } - 140px)
         background: $Cyan
         border: none
-    
+
+@media screen and (min-width: 768px) and ( max-width: 1024px )
+    .bottom-section
+        height: 900px
+        padding-bottom: 20px
+        .cards
+            width: calc(#{ $mainWidth } - 560px)
+            .card
+                &:nth-child(2)
+                    top: -60px
+                &:nth-child(3)
+                    top: 40px
+                &:nth-child(4)
+                    top: 90px
+        hr
+            width: calc(#{ $mainWidth } - 570px)
+            bottom: 320px

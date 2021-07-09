@@ -10,6 +10,12 @@
     color: white
     padding: 52px 0px
 
+    #desk
+        display: block
+
+    #mobile
+        display: none
+
     img
         width: 100vw
         height: $height
@@ -32,3 +38,12 @@
         color: white
         border: none
         border-radius: 20px
+
+
+@media screen and ( max-width: 1024px )
+    .boost
+        #desk
+            display: none
+
+        #mobile
+            display: block    

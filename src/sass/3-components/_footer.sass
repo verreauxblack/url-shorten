@@ -20,7 +20,7 @@ footer
             h1
                 font-size: 16px
                 margin-bottom: 15px
-            li 
+            li
                 color: $Grayish-Violet
                 font-size: 14px
                 line-height: 1.8rem
@@ -33,6 +33,19 @@ footer
             display: flex
             justify-content: space-around
             align-items: center
+            
 
             img::hover
                 background: $Cyan
+
+@media screen and ( max-width: 1024px )
+    footer
+        .links
+            width: 500px
+
+            ul.social
+                width: 70px
+                flex-wrap: wrap
+
+                img
+                    padding-right: 10px
