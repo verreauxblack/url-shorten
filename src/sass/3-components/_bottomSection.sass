@@ -1,0 +1,46 @@
+.bottom-section
+    background: lighten($Gray, 20%)
+    width: 100vw
+    height: 800px
+    right: 328px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+
+    .Advanced
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        top: 150px
+        flex-direction: column
+
+        h1,p
+            width: 500px
+        h1
+            color: $Dark-Violet
+        p
+            color: $Grayish-Violet
+    .cards
+        width: calc(#{ $mainWidth } - 140px)
+        height: 600px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .card
+            &:nth-child(2)
+                top: -20px
+            &:nth-child(3)
+                top: 30px
+            &:nth-child(4)
+                top: 60px
+            
+    
+    hr
+        position: absolute
+        height: 8px
+        width: calc(#{ $mainWidth } - 140px)
+        background: $Cyan
+        border: none
+    
